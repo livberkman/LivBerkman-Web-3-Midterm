@@ -1,1 +1,1 @@
-# LivBerkman-Web-3-Midterm
+# Joe-Web-3-Template
