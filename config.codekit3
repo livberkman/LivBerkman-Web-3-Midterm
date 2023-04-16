@@ -307,11 +307,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/global\/hero-melimelo copy.png" : {
+    "\/deploy\/img\/global\/heromelimelo.png" : {
       "ft" : 32768,
       "iS" : 340484,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/global\/hero-melimelo copy.png",
+      "oAP" : "\/deploy\/img\/global\/heromelimelo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -320,11 +320,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/global\/logo-isolated.png" : {
+    "\/deploy\/img\/global\/logoisolated.png" : {
       "ft" : 32768,
       "iS" : 135543,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/global\/logo-isolated.png",
+      "oAP" : "\/deploy\/img\/global\/logoisolated.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
