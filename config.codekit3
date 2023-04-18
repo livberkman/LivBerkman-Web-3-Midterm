@@ -281,12 +281,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/contact\/custom-cake copy.jpg" : {
+    "\/deploy\/img\/contact\/customcake.jpg" : {
       "ft" : 16384,
       "iS" : 160795,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/contact\/custom-cake copy.jpg",
+      "oAP" : "\/deploy\/img\/contact\/customcake.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -294,12 +294,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/contact\/event-catering copy.jpg" : {
+    "\/deploy\/img\/contact\/eventcatering.jpg" : {
       "ft" : 16384,
       "iS" : 546634,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/contact\/event-catering copy.jpg",
+      "oAP" : "\/deploy\/img\/contact\/eventcatering.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -307,11 +307,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/global\/heromelimelo.png" : {
+    "\/deploy\/img\/heromelimelo.png" : {
       "ft" : 32768,
       "iS" : 340484,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/global\/heromelimelo.png",
+      "oAP" : "\/deploy\/img\/heromelimelo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -320,11 +320,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/global\/logoisolated.png" : {
+    "\/deploy\/img\/logoisolated.png" : {
       "ft" : 32768,
       "iS" : 135543,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/global\/logoisolated.png",
+      "oAP" : "\/deploy\/img\/logoisolated.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
