@@ -1,0 +1,13 @@
+/* =============
+    Contact Stripe
+============= */
+
+.contactstripe{
+    column-gap: 15px;
+
+    @include md{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: ".content";
+    }
+}

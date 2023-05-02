@@ -1,15 +1,23 @@
 /* =============
-    Footer
+    What's New
 ============= */
 
-.footer{
-    
+.whatsnew-articles{
+    column-gap: 15px;
+
     @include md{
         display:grid;
         grid-template-columns: 50% 50%;
         grid-template-areas: ".content";
     }
+
     @include lg{
+        display:grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-areas: ".content";
+    }
+
+    @include xl{
         display:grid;
         grid-template-columns: 33.33% 33.33% 33.33%;
         grid-template-areas: ".content";

@@ -1,0 +1,25 @@
+/* =============
+    Hero Stripe
+============= */
+
+.herostripe{
+
+    @include md{
+        display:grid;
+        grid-template-columns: 30% 70%;
+        grid-template-areas: ".content";
+    }
+
+    @include lg{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: ".content";
+    }
+
+    @include xl{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: ".content";
+    }
+}
+
