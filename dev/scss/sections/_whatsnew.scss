@@ -2,24 +2,82 @@
     What's New
 ============= */
 
-.whatsnew-articles{
-    column-gap: 15px;
+.whats-new{
 
-    @include md{
-        display:grid;
-        grid-template-columns: 50% 50%;
-        grid-template-areas: ".content";
-    }
+    .whats-new-articles{
 
-    @include lg{
-        display:grid;
-        grid-template-columns: 33.33% 33.33% 33.33%;
-        grid-template-areas: ".content";
-    }
+        @include md{
+            display:grid;
+            grid-template-columns: 15px auto 15px;
+            grid-template-areas: ". articles .";
+        }
 
-    @include xl{
-        display:grid;
-        grid-template-columns: 33.33% 33.33% 33.33%;
-        grid-template-areas: ".content";
+        @include xl{
+            grid-template-columns: auto 1140px auto;
+        }
+
+        @include xxl{
+            grid-template-columns: auto 1320px auto;
+        }
+
+        ul.article-grid{
+
+            @include md{
+                grid-area: articles;
+                display: grid; 
+                grid-template-columns: repeat(4,1fr);
+                grid-template-areas:
+                "a1 a1 a2 a2"
+                "a3 a3 a4 a4"
+                ". a5 a5 .";
+            }
+
+            @include lg{
+                grid-template-columns: repeat(6,1fr);
+                grid-template-areas:
+                "a1 a1 a2 a2 a3 a3"
+                ". a4 a4 a5 a5 .";
+            }
+
+            li{
+
+                .container{
+
+                    @include xl{
+                        grid-template-columns: 15px auto 15px;
+                    }
+                }
+
+                &.article-1{
+                    @include md{
+                        grid-area: a1;
+                    }
+                }
+
+                &.article-2{
+                    @include md{
+                        grid-area: a2;
+                    }
+                }
+
+                &.article-3{
+                    @include md{
+                        grid-area: a3;
+                    }
+                }
+
+                &.article-4{
+                    @include md{
+                        grid-area: a4;
+                    }
+                }
+
+                &.article-5{
+                    @include md{
+                        grid-area: a5;
+                    }
+                }
+            }
+        }
     }
 }
