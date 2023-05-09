@@ -10,10 +10,16 @@
             display:grid;
             grid-template-columns: 15px auto 15px;
             grid-template-areas: ". articles .";
+            padding: 15px 15px 15px;
+        }
+
+        @include lg{
+            padding: 15px 15px 15px 15px;
         }
 
         @include xl{
             grid-template-columns: auto 1140px auto;
+            padding: 223px 15px 15px 223px;
         }
 
         @include xxl{
@@ -49,30 +55,35 @@
                 }
 
                 &.article-1{
+                    background-color: #E9E4D7;
                     @include md{
                         grid-area: a1;
                     }
                 }
 
                 &.article-2{
+                    background-color: #E9E4D7;
                     @include md{
                         grid-area: a2;
                     }
                 }
 
                 &.article-3{
+                    background-color: #E9E4D7;
                     @include md{
                         grid-area: a3;
                     }
                 }
 
                 &.article-4{
+                    background-color: #E9E4D7;
                     @include md{
                         grid-area: a4;
                     }
                 }
 
                 &.article-5{
+                    background-color: #E9E4D7;
                     @include md{
                         grid-area: a5;
                     }

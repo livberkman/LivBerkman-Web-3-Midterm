@@ -3,7 +3,7 @@
 ============= */
 
 .herostripe{
-
+    
     @include md{
         display:grid;
         grid-template-columns: 40% 60%;
@@ -16,6 +16,8 @@
 
     .herostripe-left.container{
 
+        background-color: #A5908C;
+
         @include lg{
             grid-template-columns: auto auto 16px;
         }
@@ -23,9 +25,10 @@
 
     .herostripe-right.container{
 
+        background-color: #C1AAA6;
+
         @include lg{
             grid-template-columns: 16px auto auto;
         }
     }
 }
-
