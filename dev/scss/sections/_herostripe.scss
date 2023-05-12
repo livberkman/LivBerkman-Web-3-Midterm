@@ -3,7 +3,18 @@
 ============= */
 
 .herostripe{
+
+    color: $off-white;
     
+    a{
+        color: $off-white;
+        text-decoration: none;
+
+        img{
+            display: inline-block;
+        }
+    }
+
     @include md{
         display:grid;
         grid-template-columns: 40% 60%;
@@ -14,21 +25,67 @@
         grid-template-columns: 50% 50%;
     }
 
+    .container{
+
+        .content{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "div link";
+
+            .information{
+                grid-area: div;
+            }
+
+            a{
+                grid-area: link;
+                justify-self: end;
+                align-self: center;
+
+                span{
+                    display: none;
+
+                    @include lg{
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+
     .herostripe-left.container{
 
-        background-color: #A5908C;
+        background-color: $mauve-dark;
+        padding: 20px;
 
         @include lg{
             grid-template-columns: auto auto 16px;
+        }
+
+        p{
+            margin-bottom: 10px;
+        }
+
+        h4{
+            font-size: 18px;
+            margin-bottom: 10px;
+
+            @include lg{
+                font-size: 25px;
+            }
         }
     }
 
     .herostripe-right.container{
 
-        background-color: #C1AAA6;
+        background-color: $mauve;
+        padding: 20px;
 
         @include lg{
             grid-template-columns: 16px auto auto;
+        }
+
+        p{
+            margin-bottom: 10px;
         }
     }
 }

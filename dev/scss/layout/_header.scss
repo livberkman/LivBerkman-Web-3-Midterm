@@ -4,10 +4,26 @@
 
 header{
 
-    background-color: black;
+    background-color: $black;
 
     .content{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+
+        div{
+            margin: 20px 0 20px 0px;
+
+            @include md{
+                margin: 25px 0 25px 0px;
+            }
+        }
+
+        img{
+            width: 130.7px;
+            padding-right: 0.5rem;
+
+            @include lg{
+                width: 60px;
+                padding-right: 1rem;
+            }
+        }
     }
 }

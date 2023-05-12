@@ -28,6 +28,8 @@
 
         ul.article-grid{
 
+            list-style: none;
+
             @include md{
                 grid-area: articles;
                 display: grid; 
@@ -55,35 +57,35 @@
                 }
 
                 &.article-1{
-                    background-color: #E9E4D7;
+                    background-color: $light-pink;
                     @include md{
                         grid-area: a1;
                     }
                 }
 
                 &.article-2{
-                    background-color: #E9E4D7;
+                    background-color: $light-pink;
                     @include md{
                         grid-area: a2;
                     }
                 }
 
                 &.article-3{
-                    background-color: #E9E4D7;
+                    background-color: $light-pink;
                     @include md{
                         grid-area: a3;
                     }
                 }
 
                 &.article-4{
-                    background-color: #E9E4D7;
+                    background-color: $light-pink;
                     @include md{
                         grid-area: a4;
                     }
                 }
 
                 &.article-5{
-                    background-color: #E9E4D7;
+                    background-color: $light-pink;
                     @include md{
                         grid-area: a5;
                     }
