@@ -4,13 +4,38 @@
 
 .whats-new{
 
+    margin: 0 0 20px 0;
+
+    @include md{
+        margin: 30px 0 40px 0;
+    }
+
+    @include xl{
+        margin: 50px 0 60px 0;
+    }
+
+    .whats-new-title{
+        h1{
+            font-size: 20px;
+            color: $mauve;
+            padding: 10px 0 10px 0;
+
+            @include lg{
+                 font-size: 28px;
+            }
+
+            @include xl{
+                font-size: 37px;
+            }
+        }
+    }
+
     .whats-new-articles{
 
         @include md{
             display:grid;
             grid-template-columns: 15px auto 15px;
             grid-template-areas: ". articles .";
-            padding: 15px 15px 15px;
         }
 
         @include lg{
@@ -29,6 +54,11 @@
         ul.article-grid{
 
             list-style: none;
+            padding-left: 0;
+
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 15px;
 
             @include md{
                 grid-area: articles;
@@ -49,43 +79,66 @@
 
             li{
 
+                background-color: $light-pink;
+
                 .container{
+
+                    padding: 15px 0 35px 0;
 
                     @include xl{
                         grid-template-columns: 15px auto 15px;
                     }
+
+                    h3{
+                        font-size: 27px;
+                        margin-bottom: 10px;
+                    }
+
+                    p{
+                        padding-bottom: 25px;
+                    }
+
+                    a{
+                        color: $off-white;
+                        background-color: $mauve;
+                        padding: 10px 20px 10px 20px;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: 0.5s;
+
+                        & a:hover{
+                            background-color: $mauve-dark;
+                            text-decoration: underline;
+                            transition: 0.5s;
+                        }
+                    }
                 }
 
                 &.article-1{
-                    background-color: $light-pink;
                     @include md{
                         grid-area: a1;
                     }
                 }
 
                 &.article-2{
-                    background-color: $light-pink;
                     @include md{
                         grid-area: a2;
                     }
                 }
 
                 &.article-3{
-                    background-color: $light-pink;
                     @include md{
                         grid-area: a3;
                     }
                 }
 
                 &.article-4{
-                    background-color: $light-pink;
                     @include md{
                         grid-area: a4;
                     }
                 }
 
                 &.article-5{
-                    background-color: $light-pink;
                     @include md{
                         grid-area: a5;
                     }

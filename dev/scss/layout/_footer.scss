@@ -6,6 +6,7 @@ footer{
 
     background-color: $black;
     color: $off-white;
+    padding-top: 20px;
 
     .content{
     
@@ -15,22 +16,64 @@ footer{
             grid-template-areas:
             "locations newsletter"
             "locations follow";
+            gap: 20px;
         }
 
         @include lg{
             grid-template-columns: repeat(3, 1fr);
             grid-template-areas:
-            "locations newsletter social";
+            "locations newsletter follow";
         }
 
-        @include xl{
-            padding: 223px 223px;
+        h5{
+            font-size: 20px;
+        }
+
+        .locations, .follow{
+            ul{
+                list-style: none;
+                padding: 0;
+
+                img{
+                    padding-right: 10px;
+                }
+
+                h6{
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+
+                p{
+                    font-size: 12px;
+                    margin-bottom: 15px;
+                    //display: flex;
+
+                    span{
+                        display: inline-block;
+                    }
+                }
+
+                a{
+                    color: $off-white;
+                }
+
+                .border-bottom{
+                    border-bottom: 2px solid $off-white;
+                    margin: 25px 0 25px 0;
+                }
+            }
         }
 
         .locations{
 
             @include md{
                 grid-area: locations;
+            }
+
+            ul{
+                li{
+                    color: $off-white;
+                }
             }
         }
 
@@ -39,12 +82,70 @@ footer{
             @include md{
                 grid-area: newsletter;
             }
+
+            form{
+                display: flex;
+                flex-flow: wrap;
+                justify-content: end;
+
+                input{
+                    width: 100%;
+                    background-color: $light-pink;
+                    color: $black;
+                    padding: 15px 10px 15px 10px;
+                    margin: 20px 0 20px 0;
+                }
+
+                ::placeholder{ /* Microsoft Edge */
+                    color: $black;
+                    opacity: 1;
+                }
+
+                ::-ms-input-placeholder { /* Microsfot Edge */
+                    color: $black;
+                }
+
+                button{
+                    color: $off-white;
+                    background-color: $mauve;
+                    padding: 10px 20px 10px 20px;
+                    text-decoration: none;
+                    text-align: center;
+                    border: none;
+                }
+            }
         }
 
         .follow{
 
             @include md{
                 grid-area: follow;
+            }
+
+            @include lg{
+                text-align: right;
+            }
+
+            ul li{
+                display: inline-block;
+
+                a{
+                    color: $off-white;
+
+                    img{
+                        font-size: 30px;
+                        padding-right: 15px;
+                    }
+                }
+
+                @include lg{
+
+                    &:last-of-type{
+                        a img{
+                            padding-right: 0; 
+                        }
+                    }
+                }
             }
         }
     }

@@ -68,12 +68,21 @@
     
             a{
                 grid-area: a;
+
+                align-self: end;
+                color: $off-white;
+                background-color: $mauve;
+                padding: 10px;
+                width: 100px;
+                text-decoration: none;
+                text-align: center;
+
             }
     
             img{
                 grid-area: img;
                 justify-self: end;
-
+                border-radius: 50%;
             }
         }
     }

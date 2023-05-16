@@ -284,7 +284,7 @@
       "oAP" : "\/deploy\/img\/card-images\/bread-instructions.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -297,7 +297,7 @@
       "oAP" : "\/deploy\/img\/card-images\/carrot-cake-scones.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -310,7 +310,7 @@
       "oAP" : "\/deploy\/img\/card-images\/cookie-season.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -323,7 +323,7 @@
       "oAP" : "\/deploy\/img\/card-images\/essential-vanilla.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -336,7 +336,7 @@
       "oAP" : "\/deploy\/img\/card-images\/scone-mix.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

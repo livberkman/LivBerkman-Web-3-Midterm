@@ -28,6 +28,8 @@
         }
     }
 
+    li{
+
     &.img-1{
 
         @include xl{
@@ -44,9 +46,7 @@
 
     &.img-3{
 
-        @include sm{
-            display: none;
-        }
+        display: none; 
 
         @include md{
 
@@ -58,6 +58,9 @@
 
         @include xl{
             grid-area: g3;
+            display: block;
         }
+    }
+
     }
 }
